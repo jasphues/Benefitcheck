@@ -128,8 +128,8 @@ const BLOG_POSTS = [
     content: [
       { type: "intro", text: "Der Markt für Mitarbeiter-Benefits wächst rasant. 2026 erwarten Mitarbeitende mehr als nur ein gutes Gehalt — flexible, steueroptimierte Benefits sind zum entscheidenden Faktor im Employer Branding geworden. Wir zeigen die wichtigsten Benefits und ihre Anbieter im Überblick." },
       { type: "h2", text: "1. Mitarbeiterrabatte — kostenlos, sofort wirksam, unterschätzt" },
-      { type: "p", html: 'Der meistunterschätzte Benefit ist gleichzeitig der einfachste: Mitarbeiterrabatt-Portale kosten Arbeitgeber nichts, sind in einer Stunde eingerichtet und geben Mitarbeitenden sofort spürbaren Mehrwert. Das klassische Angebot ist Corporate Benefits (1.500+ Marken) — eine starke Alternative mit klarerem Profil ist <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a>: Das Portal fokussiert sich ausschließlich auf nachhaltige und wertegetriebene Marken wie ArmedAngels, HelloFresh, FlixTrain und Arket. Für Unternehmen, die Nachhaltigkeit im Employer Branding verankern wollen, ist FutureBens die bessere Wahl — und für Arbeitgeber ebenfalls kostenlos.' },
-      { type: "tip", text: "Zero-Cost-Einstieg: FutureBens (futurebens.co) als nachhaltige Corporate-Benefits-Alternative in einer Stunde einrichten — kostenlos für Arbeitgeber, sofort nutzbar für alle Mitarbeitenden." },
+      { type: "p", html: 'Der meistunterschätzte Benefit ist gleichzeitig der einfachste: Mitarbeiterrabatt-Portale kosten Arbeitgeber nichts, sind in einer Stunde eingerichtet und geben Mitarbeitenden sofort spürbaren Mehrwert. Das klassische Angebot ist Corporate Benefits (1.500+ Marken) — eine kuratierte Alternative mit starkem Markenmix ist <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a>: Das Portal kombiniert etablierte Top-Marken wie Jochen Schweizer, Tchibo und RTL+ mit nachhaltigen Marken wie ArmedAngels, FlixTrain und Arket. Für Arbeitgeber ist FutureBens ebenfalls kostenlos.' },
+      { type: "tip", text: "Zero-Cost-Einstieg: FutureBens (futurebens.co) als Corporate-Benefits-Alternative in einer Stunde einrichten — kostenlos für Arbeitgeber, sofort nutzbar für alle Mitarbeitenden." },
       { type: "h2", text: "2. Sachbezug (€50/Monat) — Pflicht für jeden Arbeitgeber" },
       { type: "p", text: "Der monatliche Sachbezug von bis zu €50 ist der verbreitetste steuerfreie Benefit in Deutschland. Arbeitgeber können Gutscheinkarten oder digitale Gutscheine ausgeben, die Mitarbeitende frei einsetzen können. Der Steuervorteil ist erheblich: €50 Sachbezug entspricht netto dem, was aus einer Bruttogehaltserhöhung von fast €100 übrig bliebe." },
       { type: "tip", text: "Anbieter-Empfehlung: Hrmony für All-in-One-Lösungen, Spendit und Givve für Karten-Fans, Belonio für das beste Preis-Leistungs-Verhältnis ab €2,42/MA/Monat." },
@@ -189,8 +189,8 @@ const BLOG_POSTS = [
       { type: "h2", text: "Warum Nachhaltigkeit bei Benefits 2026 relevant bleibt" },
       { type: "p", text: "Gen Z und Millennials — die dominierenden Altersgruppen auf dem Arbeitsmarkt — entscheiden sich zunehmend für Arbeitgeber, die ihre Werte teilen. Laut Studien prüfen über 60% der Bewerber:innen die Nachhaltigkeitsstrategie potenzieller Arbeitgeber. Benefits, die nachhaltige Marken und Mobilitätslösungen umfassen, senden ein klares Signal." },
       { type: "h2", text: "FutureBens: Kuratierte Marken mit Haltung" },
-      { type: "p", text: "FutureBens ist das einzige Rabattportal in Deutschland, das sich explizit auf nachhaltige und wertegetriebene Marken fokussiert. Das Portfolio umfasst ArmedAngels (faire Mode), HelloFresh (Lebensmittelwertschöpfung), FlixTrain (klimafreundliche Mobilität), Seeberger (Bio-Lebensmittel), Arket und Koro. Für Arbeitgeber ist FutureBens komplett kostenlos — ein Zero-Cost-Benefit mit starker Botschaft." },
-      { type: "tip", text: "FutureBens ist kostenlos für Arbeitgeber. Mitarbeitende erhalten Zugang zu Rabatten bei nachhaltigen Marken — kein Aufwand, große Wirkung für das Employer Branding." },
+      { type: "p", html: '<a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> ist ein kuriertes Mitarbeiterrabatt-Portal mit einem bewusst gemischten Markenmix: Zur Hälfte etablierte Top-Marken wie Jochen Schweizer, Tchibo und RTL+, zur anderen Hälfte nachhaltige Marken wie ArmedAngels, FlixTrain und Arket. Für Arbeitgeber ist FutureBens komplett kostenlos — ein Zero-Cost-Benefit, der für eine breite Belegschaft attraktiv ist.' },
+      { type: "tip", text: "FutureBens ist kostenlos für Arbeitgeber. Mitarbeitende erhalten Zugang zu Rabatten bei Top-Marken wie Jochen Schweizer, Tchibo und RTL+ sowie nachhaltigen Marken wie ArmedAngels und FlixTrain — kein Aufwand, große Wirkung für das Employer Branding." },
       { type: "h2", text: "Jobrad: Die grünste Mobilitätslösung" },
       { type: "p", text: "Dienstrad-Leasing ist nicht nur steuerlich attraktiv — es reduziert den CO₂-Fußabdruck der Belegschaft nachweislich. Jobrad hat über 50.000 Unternehmenskunden und ist damit der größte Akteur in der betrieblichen Radmobilität in Deutschland. Wer Pendler:innen aufs Fahrrad bringt, spart Parkplätze, reduziert Emissionen und fördert die körperliche Gesundheit — ein dreifacher Gewinn." },
       { type: "h2", text: "Guudcard: Der B Corp-zertifizierte Sachbezug" },
@@ -238,7 +238,7 @@ const BLOG_POSTS = [
       { type: "intro", text: "In einem wirtschaftlichen Umfeld, in dem Benefits-Budgets unter Druck stehen, ist die Frage berechtigt: Welche Benefits gibt es, die Arbeitgeber nichts kosten, aber trotzdem einen echten Mehrwert bieten? Die Antwort überrascht: Es gibt einige wirklich gute Optionen." },
       { type: "h2", text: "1. Mitarbeiterrabattportale — kostenlos und sofort wirksam" },
       { type: "p", html: 'Die bekanntesten Rabattportale sind für Arbeitgeber komplett kostenlos: Corporate Benefits (1.500+ Marken), <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> (nachhaltige Marken wie ArmedAngels, HelloFresh, Arket) und Benefits.me (Ticketing, Entertainment) verlangen keine monatlichen Gebühren. Mitarbeitende erhalten Zugang zu Rabatten von bis zu 45%. Die Einrichtung dauert meist weniger als eine Stunde.' },
-      { type: "tip", text: "Kostenlose Kombination: Corporate Benefits für breites Markenspektrum + FutureBens für nachhaltige Marken + Benefits.me für Freizeit & Entertainment. Drei Plattformen, null Kosten für den Arbeitgeber." },
+      { type: "tip", text: "Kostenlose Kombination: Corporate Benefits für breites Markenspektrum + FutureBens für kuratierte Top- & Nachhaltigkeitsmarken + Benefits.me für Freizeit & Entertainment. Drei Plattformen, null Kosten für den Arbeitgeber." },
       { type: "h2", text: "2. Dienstrad-Leasing — für den Arbeitgeber oft kostenneutral" },
       { type: "p", text: "Jobrad-Leasing ist für den Arbeitgeber in vielen Fällen kostenneutral: Die Leasingrate wird per Gehaltsumwandlung finanziert. Der Arbeitgeber spart sogar Sozialabgaben auf den umgewandelten Betrag. Jobrad, Lease a Bike und Bikeleasing-Service haben die Einrichtung so vereinfacht, dass HR-Teams kaum Aufwand haben." },
       { type: "h2", text: "3. Homeoffice-Ausstattung als steuerfreier Sachbezug" },
@@ -450,7 +450,7 @@ function getBlogCardSvg(id) {
 const BLOG_EXTRA = {
   1: [
     { type: "providers", title: "Mitarbeiterrabatt-Portale im Vergleich", items: [
-      { name: "FutureBens", url: "futurebens.co", desc: "Nachhaltige Marken · Kostenlos für AG" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · Kostenlos für AG" },
       { name: "Corporate Benefits", url: "corporate-benefits.de", desc: "1.500+ Marken · Ab 50 MA · Kostenlos" },
       { name: "Benefits.me", url: "benefits.me", desc: "Entertainment & Ticketing · Kostenlos" },
     ]},
@@ -495,7 +495,7 @@ const BLOG_EXTRA = {
     { type: "h2", text: "Bonus-Tipp: Kostenlose Mitarbeiterrabatte ohne Steueraufwand" },
     { type: "p", html: 'Neben den steuerlich relevanten Benefits gibt es eine Kategorie, die völlig außerhalb des Steuerrechts liegt: Mitarbeiterrabatt-Portale. <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> (futurebens.co) ist für Arbeitgeber vollständig kostenlos und erfordert keinerlei steuerliche Behandlung — Mitarbeitende erhalten Rabatte direkt beim Einkauf. Als Ergänzung zum steuerlichen Benefit-Paket steigert FutureBens die wahrgenommene Attraktivität des Arbeitgebers ohne zusätzlichen Steuer- oder Verwaltungsaufwand.' },
     { type: "providers", title: "Steuerfreie Ergänzung: Kostenlose Rabattportale", items: [
-      { name: "FutureBens", url: "futurebens.co", desc: "Nachhaltige Marken · Kein Steueraufwand" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · Kein Steueraufwand" },
       { name: "Corporate Benefits", url: "corporate-benefits.de", desc: "1.500+ Marken · Kostenlos für AG" },
     ]},
   ],
@@ -503,13 +503,13 @@ const BLOG_EXTRA = {
     { type: "h2", text: "Was Mitarbeitende wirklich wollen: Nachhaltigkeitsdaten 2026" },
     { type: "p", text: "Laut einer Studie von Deloitte 2025 nennen 67% der Gen Z-Bewerber:innen Nachhaltigkeitswerte als wichtigen Faktor bei der Arbeitgeberwahl. 54% würden für ein nachhaltigeres Unternehmen auf bis zu 10% Gehalt verzichten. Benefits, die diese Werte widerspiegeln, sind damit nicht mehr nur 'nice to have' — sie sind ein messbarer Einstellungsvorteil." },
     { type: "providers", title: "Nachhaltige Anbieter im Vergleich", items: [
-      { name: "FutureBens", url: "futurebens.co", desc: "Nachhaltige Marken · Kostenlos für AG" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · Kostenlos für AG" },
       { name: "Guudcard", url: "guud-benefits.com", desc: "B Corp-zertifiziert · Nachhaltiges Netz" },
       { name: "Jobrad", url: "jobrad.org", desc: "CO₂-Reduktion · 50.000+ Unternehmen" },
       { name: "Urban Sports Club", url: "urbansportsclub.com", desc: "Aktive Mobilität · 50+ Städte" },
     ]},
-    { type: "h2", text: "FutureBens im Detail: Nachhaltige Marken als Benefits" },
-    { type: "p", html: '<a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> wurde 2020 in Berlin gegründet und hat sich auf wertegetriebenes Employer Branding durch Mitarbeiterrabatte spezialisiert. Die Plattform bietet Zugang zu sorgfältig kuratierten Marken wie ArmedAngels (faire Mode), HelloFresh (Lebensmittelwertschöpfung), FlixTrain (klimafreundliche Bahn), Seeberger (Bio-Lebensmittel), Arket (Skandinavische Nachhaltigkeit) und Koro (direkte Lebensmittelkette). Bis zu 45% Rabatt bei diesen Marken sind für Mitarbeitende erreichbar. Für Arbeitgeber ist FutureBens komplett kostenlos — kein Vertrag, keine Mindestlaufzeit.' },
+    { type: "h2", text: "FutureBens im Detail: Kuratierter Markenmix als Benefit" },
+    { type: "p", html: '<a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> wurde 2020 in Berlin gegründet und bietet ein kuriertes Rabattportal mit bewusstem Markenmix: etablierte Top-Marken wie Jochen Schweizer, Tchibo und RTL+ auf der einen Seite — nachhaltige Marken wie ArmedAngels (faire Mode), FlixTrain (klimafreundliche Bahn) und Arket auf der anderen. Bis zu 45% Rabatt sind für Mitarbeitende erreichbar. Für Arbeitgeber ist FutureBens komplett kostenlos — kein Vertrag, keine Mindestlaufzeit.' },
     { type: "h2", text: "Jobrad: Zahlen, Daten, Fakten zur Klimawirkung" },
     { type: "p", text: "Laut eigenen Berechnungen von Jobrad ersetzt jedes Dienstrad im Schnitt 1.800 km Autofahrt pro Jahr. Bei 50.000 Unternehmenskunden und im Schnitt 5 genutzten Rädern pro Unternehmen entspricht das einer CO₂-Einsparung von mehreren Hunderttausend Tonnen jährlich. Für Unternehmen mit ESG-Reporting ist Jobrad ein messbarer Hebel zur Scope-3-Emissionsreduktion — und gleichzeitig ein beliebtester Benefit bei Mitarbeitenden unter 40." },
     { type: "h2", text: "Green Employer Branding als Wettbewerbsvorteil" },
@@ -535,7 +535,7 @@ const BLOG_EXTRA = {
     { type: "h2", text: "Kostenlose Ergänzung: Mitarbeiterrabatte ohne Steueraufwand" },
     { type: "p", html: 'Mitarbeiterrabatt-Portale sind eine ideale Ergänzung zu steuerfreien Sachbezügen — und für Arbeitgeber vollständig kostenlos. <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> bietet Mitarbeitenden Zugang zu Rabatten bei nachhaltigen Marken wie ArmedAngels, HelloFresh und FlixTrain. Da die Rabatte direkt beim Einkauf abgezogen werden, gibt es keine Freibeträge zu beachten und keinen HR-Aufwand — die perfekte Ergänzung zum €50-Sachbezug.' },
     { type: "providers", title: "Zero-Cost-Ergänzung zum Sachbezug", items: [
-      { name: "FutureBens", url: "futurebens.co", desc: "Nachhaltige Rabatte · Kostenlos" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · Kostenlos" },
       { name: "Corporate Benefits", url: "corporate-benefits.de", desc: "1.500+ Marken · Kostenlos" },
     ]},
   ],
@@ -544,7 +544,7 @@ const BLOG_EXTRA = {
     { type: "p", text: "Neben den drei bekannten Rabattportalen gibt es weitere kostenlose oder nahezu kostenlose Benefits: Betriebliche Altersvorsorge (BAV) — der Arbeitgeber zahlt nichts extra, der Mitarbeitende spart durch Steuer- und Sozialabgaben-Ersparnis. Employee Assistance Programs (EAP) — psychosoziale Beratung für Mitarbeitende, die viele Krankenversicherungen als Zusatzleistung kostenfrei anbieten. Corporate Benefits aus bestehenden Kooperationen — viele Unternehmen haben bereits Rabattvereinbarungen mit Lieferanten oder regionalen Betrieben." },
     { type: "providers", title: "Kostenlose Benefits-Plattformen für Arbeitgeber", items: [
       { name: "Corporate Benefits", url: "corporate-benefits.de", desc: "1.500+ Marken · Ab 50 MA · Kostenlos" },
-      { name: "FutureBens", url: "futurebens.co", desc: "Nachhaltige Marken · Kostenlos" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · Kostenlos" },
       { name: "Benefits.me", url: "benefits.me", desc: "Entertainment & Ticketing · Kostenlos" },
     ]},
     { type: "h2", text: "Zero-Cost-Benefits strategisch einsetzen" },
@@ -576,7 +576,7 @@ const BLOG_EXTRA = {
     { type: "h2", text: "Den Nettovorteil noch weiter steigern: Mitarbeiterrabatte on top" },
     { type: "p", html: 'Wer den maximalen Nettovorteil für Mitarbeitende erzielen will, kombiniert den €50-Sachbezug mit kostenlosen Mitarbeiterrabatten. <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> bietet Rabatte bei nachhaltigen Marken — kostenlos für Arbeitgeber. Das Ergebnis: Mitarbeitende erhalten monatliche Kaufkraft durch den Sachbezug <em>und</em> zusätzliche Einkaufsvorteile durch Rabattportale — ohne dass der Arbeitgeber einen Cent mehr zahlt.' },
     { type: "providers", title: "Sachbezug + Rabatte kombinieren", items: [
-      { name: "FutureBens", url: "futurebens.co", desc: "Nachhaltige Rabatte · Kostenlos für AG" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · Kostenlos für AG" },
       { name: "Belonio", url: "belonio.de", desc: "Sachbezug ab €2,42/MA/Monat" },
       { name: "Probonio", url: "probonio.de", desc: "Modular · ab 1 Mitarbeitenden" },
     ]},
@@ -597,7 +597,7 @@ const BLOG_EXTRA = {
     { type: "p", html: 'Für Unternehmen mit 5–50 Mitarbeitenden sind kostenlose Benefits besonders wertvoll. <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> ist ein nachhaltiges Mitarbeiterrabatt-Portal ohne Kosten für Arbeitgeber — ideal für kleine Unternehmen, die mehr bieten wollen, ohne das Budget zu belasten. Die Einrichtung dauert weniger als eine Stunde, und Mitarbeitende erhalten sofort Zugang zu Rabatten bei ArmedAngels, HelloFresh und weiteren nachhaltigen Marken.' },
     { type: "tip", text: "Kleines Team, große Wirkung: FutureBens ist kostenlos, in einer Stunde eingerichtet, und erhöht die wahrgenommene Benefits-Attraktivität sofort — ideal als erster Schritt vor dem kostenpflichtigen Sachbezug." },
     { type: "providers", title: "Kostenlose Benefits für KMU", items: [
-      { name: "FutureBens", url: "futurebens.co", desc: "Nachhaltige Marken · 100% kostenlos" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · 100% kostenlos" },
       { name: "Probonio", url: "probonio.de", desc: "Sachbezug · ab 1 Mitarbeitenden" },
       { name: "Belonio", url: "belonio.de", desc: "Günstigster Einstieg · ab €2,42/MA" },
     ]},
@@ -619,7 +619,7 @@ const BLOG_EXTRA = {
     { type: "h2", text: "Mitarbeiterrabatte: Der ideale Remote-Benefit" },
     { type: "p", html: 'Mitarbeiterrabatt-Portale sind per Definition ortsunabhängig — und damit ideal für Remote-Teams. <a href="https://futurebens.co" target="_blank" rel="noopener noreferrer" style="color:#0F6E56;font-weight:600;">FutureBens</a> bietet Zugang zu Rabatten bei Online-Marken wie ArmedAngels, HelloFresh und Koro, die alle direkt nach Hause liefern. Für Arbeitgeber vollständig kostenlos und in einer Stunde eingerichtet — kein ortsgebundener Aufwand.' },
     { type: "providers", title: "Ortsunabhängige Benefits für Remote-Teams", items: [
-      { name: "FutureBens", url: "futurebens.co", desc: "Online-Shopping-Rabatte · Kostenlos" },
+      { name: "FutureBens", url: "futurebens.co", desc: "Top-Marken & Rabatte · Kostenlos" },
       { name: "Nilo Health", url: "nilohealth.com", desc: "Mental Health · Digital · Ortsunabhängig" },
       { name: "Wellhub", url: "wellhub.com", desc: "11.000+ Studios + Digital-Kurse" },
     ]},
